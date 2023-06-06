@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: aquamarine;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(20, 109, 79);
+}
+
+img{
+    width: 200px;
+    height: 40px;
+}
+
+#imgLogo{
+    background-color: red;
+    display: inline-block;
+    width: 40%;
+}
+
+nav{
+    background-color: rgb(0, 255, 13);
+    width: 59%;
+    display: inline-block;
+    height: 40px;
+}
+
+footer{
+    width: 100%;
+    height: 130px;
+    background-color: rgb(169, 220, 127);
+}
+
+li{
+    display: inline-block;   
+}
+
+
+#information-footer{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(181, 138, 83);
+    margin: auto;
+}
+
+#information-about-me{
+    background-color: aqua;
+}
+
+#me{
+    background-color: brown;
+}
+#imgMe{
+    width: 190px !important;
+    height: 190px !important;
+}
