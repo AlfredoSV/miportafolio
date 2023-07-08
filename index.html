@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@500;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+
     <title>Document</title>
 </head>
 <body>
 
     <header>
-        <div id="imgLogo"><img src="./assets/img/logo.png" alt="logo"></div>
+        <div id="logo"><span>Alfredo Sanchez</span></div>
         <nav>
 
             <ul>
                 <li><a href="./index.html">Acerca de mí</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Tecnologías</a></li>
+                <li><a href="./pages/projects.html">Proyectos</a></li>
+                <li><a href="./pages/technologies.html">Tecnologías</a></li>
+                <li><a href="./pages/posts.html">Post</a></li>
+                <li><a href="./pages/contact.html">Contacto</a></li>
+                
             </ul>
 
         </nav>
@@ -26,9 +34,13 @@
     <main>
 
         <section>
+            <div id="titlecaboutme"><h1>Acerca de mí</h1></div>
+            <div id="me">
+                <img id="imgMe" src="./assets/img/me.jpg">
+            </div>
 
             <div id="information-about-me">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod enim temporibus magni harum ipsam nobis nemo, pariatur eius sint hic atque repellendus vitae, provident cumque eligendi. Dignissimos explicabo maiores porro?
+                <p id="text-information-about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod enim temporibus magni harum ipsam nobis nemo, pariatur eius sint hic atque repellendus vitae, provident cumque eligendi. Dignissimos explicabo maiores porro?
                 Quam dolorem ullam consectetur nesciunt delectus maxime repellendus libero aspernatur, fugit eos nisi nam dolore distinctio expedita non obcaecati neque voluptatibus sapiente odio excepturi minima eum nostrum tenetur sequi. Nostrum.
                 Facilis vel quia aspernatur, expedita dicta quisquam labore adipisci magni asperiores facere impedit perferendis quod pariatur id explicabo sapiente tempora est a, et dolore mollitia? Laborum nihil vero ipsum nobis?
                 Fugiat obcaecati nobis corrupti minima nihil sunt maxime ipsa esse illo atque adipisci, assumenda deserunt minus, et error dicta iste iusto ut facilis cum voluptatem dolorum? Aliquid delectus consequatur ex.
@@ -43,15 +55,19 @@
                 Nihil alias earum officiis. Dolor ratione voluptas et nobis libero! Quae delectus nesciunt perferendis voluptatem at error et consectetur sit facere perspiciatis blanditiis expedita, eum eligendi animi laboriosam temporibus quibusdam.</p>
             </div>
 
-            <div id="me">
-                <img id="imgMe" src="./assets/img/me.jpg">
-            </div>
-
+            
         </section>
 
     </main>
     <footer>
-        <div id="information-footer"></div>
+        <div id="information-footer">
+            <p>@Alfredo Sanchez - Desarrollador .Net</p>
+            <p>alfredosv97@gmail.com</p>
+            <p>+(52) 56 1949 9701</p>
+            
+        </div>
+
+        
     </footer>
     
 </body>
