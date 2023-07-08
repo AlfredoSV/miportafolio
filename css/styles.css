@@ -91,7 +91,7 @@ footer{
     color: black;
     text-align: center;
     height: auto;
-    min-height: 500px;
+    min-height: 400px;
   
     
 }
@@ -272,11 +272,9 @@ form{
   .technologies-section h2 {
     font-size: 24px;
     margin-bottom: 16px;
-  }
-  
-  .technologies-list {
-    display: inline-block;
-    margin-bottom: 30px;
+    text-align: center;
+
+
   }
   
   .technology {
@@ -285,14 +283,15 @@ form{
     color: black;
     padding: 10px;
     margin: 20px;
-    height: 150px;
-    border: 1px solid black;
+    height: 220px;
+    
   }
   
   .technology img {
-    width: 120px;
-    height: 80px;
+    width: 130px;
+    height: 135px;
     margin-bottom: 8px;
+    border-radius: 20px;
   }
   
   .technology h3 {
